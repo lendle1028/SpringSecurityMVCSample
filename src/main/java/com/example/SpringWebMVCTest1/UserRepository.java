@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  *
- * @author lendle
+ * @author lendle 
  */
 public interface UserRepository extends JpaRepository<User, Long> {
     User findByUser(String user);
